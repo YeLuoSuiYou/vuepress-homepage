@@ -2,79 +2,68 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
+name: Zilyu Ye
 profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
-  - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
+    link: https://github.com/YeLuoSuiYou
 
 cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+bio: Student majoring in Artificial Intelligence at South China University of Technology 
+email: zilyuye@foxmail.com
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+Hi, I'm Zilyu, a second-year undergraduate student majoring in Artificial Intelligence at South China University of Technology. I'm currently working on my research project on AIGC supervised by [Prof. Qi Liu](https://drliuqi.github.io/) and [Prof. Guo-Jun Qi](http://maple-lab.net/about.html).
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+<span style="color: red">Sincerely looking for Ph.D. positions for fall 2026 and internships opportunities in for Summer 2024.</span>
 
+### Research Interests
+
+Computer Vision, Multimodal Learning, AIGC, Diffusion Model etc.
 
 ## News
 
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
-
+- [March 2024] Submit a paper focusing on the open-domain visual storytelling task to CVPR 2024 workshop.
 
 ## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+- **South China University of Technology (SCUT)**<br/>
+  Undergraduate major in Artificial Intelligence, 2022.9 - 2026.6 (expected)<br/>
+- **Multimodal Computing and Emotional Interaction Lab in SCUT**<br/>
+  Research intern on AIGC supervised by [Prof. Qi Liu](https://drliuqi.github.io/), 2023.11 - present<br/>
+- **Machine Perception and Learning (MAPLE) Lab in Westlake University**<br/>
+  Research intern on AIGC supervised by [Prof. Guo-Jun Qi](http://maple-lab.net/about.html), 2024.3 - present<br/>
+- **Undergraduate Student Robotic Lab (ROBOTIC) in SCUT**<br/>
+  Member of machine vision team participating in ROBOCON competition, 2022.12 - 2023.6<br/>
 
+## Papers and Projects
 
-## Projects
+<ProjectCard image="/projects/OpenStory.png" hideBorder=true>
 
+  <span style="font-size:1.1em">**OpenStory: A Large-Scale Open-Domain Dataset for Subject-Driven Visual Storytelling**</span>
 
-[→ Full list](/projects/)
+  Zilyu Ye*, Jinxiu Liu*, *et al*
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+  Recently, the advancement and evolution of genera-tive AI have been highly compelling. In this paper, wepresent OpenStory, a large-scale dataset tailored for train-ing subject-focused story visualization models to generatecoherent and contextually relevant visual narratives. Ad-dressing the challenges of maintaining subject continuityacross frames and capturing compelling narratives, We propose an innovative pipeline that automates the extraction ofkeyframes from open-domain videos. It ingeniously employsvision-language models to generate descriptive captions,which are then refined by a large language model to ensurenarrative flow and coherence. Furthermore, advanced sub-ject masking techniques are applied to isolate and segmentthe primary subjects. Derived from diverse video sources,including YouTube and existing datasets, OpenStory offersa comprehensive open-domain resource, surpassing priordatasets confined to specific scenarios. With automatedcaptioning instead of manual annotation, high-resolutionimagery optimized for subject count per frame, and exten-sive frame sequences ensuring consistent subjects for tem-poral modeling, OpenStory establishes itself as an invalu-able benchmark. It facilitates advancements in subject-focused story visualization, enabling the training of modelscapable of comprehending and generating intricate multi-modal narratives from extensive visual and textual inputs.
 
-  **The Making of Harry Potter's Wand**
-
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
-
-</ProjectCard>
-
-<ProjectCard hideBorder=true>
-
-  **Harry Potter and the Deathly Hallows**
-  
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-  [[Link](https://www.google.com)]
+  CVPR 2024 workshop, under review
 
 </ProjectCard>
-
 
 ## Awards & Honors
 
-### Contests
-
-- First place in **The Hogwarts House Cup**
+- SCUT undergraduate scholoarship, 2022 -- Third Prize
+- Excellent Group Enterprise Scholarship, SCUT, 2023 -- Third Prize
+- Asia and Pacific Mathematical Modeling Contest —Third Prize
+- National College Student Robot Contest (ROBOCON) —Third Prize
+- National Undergraduate Mathematical Modeling Contest In Guangdong Province — Second Prize
+- SCUT Future Technology Institute "Alibaba Cloud Cup" Programming Competition — Third Prize
 
 
 <!-- Custom style for this page -->
@@ -103,8 +92,8 @@ Sept 1991 - 1997
     .card-image
       padding 0.2rem
       img
-        max-width 120px
-        max-height 120px
+        max-width 3000px
+        max-height 300px
     .card-content p
       -webkit-margin-after 0.2em
 

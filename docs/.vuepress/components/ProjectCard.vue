@@ -1,5 +1,5 @@
 <template>
-  <div class="md-card" :class="{ 'show-border': !hideBorder}">
+  <div class="md-card" :class="{ 'show-border': !hideBorder }">
     <div v-if="image" class="card-image">
       <img :src="$withBase(image)" alt="">
     </div>
