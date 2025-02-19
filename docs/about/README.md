@@ -2,7 +2,7 @@
 pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
-head: 'Harry Potter'
+head: 'Zilyu Ye'
 info: 'Student at Hogwarts School'
 interests: 'Interests: Quidditch and Wizard chess.'
 socials:

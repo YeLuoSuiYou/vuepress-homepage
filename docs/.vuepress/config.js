@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Harry Potter",
+  title: "Zilyu Ye's Homepage",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
@@ -9,10 +9,10 @@ module.exports = {
     search: false,
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      // { text: "About", link: "/about/" },
+      // { text: "Projects", link: "/projects/" },
+      // { text: "Guide", link: "/guide/" },
+      // { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
     sidebar: {
       '/guide/': genSidebarConfig('Guide')
